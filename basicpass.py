@@ -13,7 +13,6 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 # # User input for how many letters they want to use
 nr_letters= int(input("How many letters would you like in your password? "))  
 
-
 # function that generates random letters based on the users input
 def random_letters():   
     l = ''
@@ -77,4 +76,6 @@ def min_length(password):
         return "You have no password you idiot, you will get hacked"  
     
 print(min_length(password)) 
-print()
+print() 
+
+print('This is a change')
