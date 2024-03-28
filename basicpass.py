@@ -78,4 +78,3 @@ def min_length(password):
 print(min_length(password)) 
 print() 
 
-print('This is a change')
