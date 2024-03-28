@@ -27,7 +27,7 @@ def random_sym():
     symbols = ['!', '#', '$', '%', '&', '@', '-', '*', '+']  
     
     # User input
-    nr_symbols = int(input(f"How many symbols would you like? ")) 
+    nr_symbols = int(input(f"How many symbols would you like in your password? ")) 
     print()
     s = '' 
     for i in range(nr_symbols): 
@@ -42,7 +42,7 @@ def random_int():
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] 
 
     # User input 
-    nr_numbers = int(input(f"How many numbers would you like? "))  
+    nr_numbers = int(input(f"How many numbers would you like in your password? "))  
     n = ''
     for i in range(nr_numbers): 
         random_number = random.choice(numbers) 
