@@ -75,6 +75,8 @@ def min_length(password):
     else: 
         return "You have no password you idiot, you will get hacked"  
     
-print(min_length(password)) 
-print() 
+def main():
+    print(min_length(password)) 
+    print() 
 
+main() 
