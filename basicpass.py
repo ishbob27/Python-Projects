@@ -79,4 +79,8 @@ def main():
     print(min_length(password)) 
     print() 
 
-main() 
+# Call the main function if the script is run directly, ensures that the main() function is only executed if the script is run directly  
+# not when it's imported as a module into another script 
+# prevents the main functionality of the script from being executed unintentionally when imported elsewhere
+if __name__ == "__main__":
+    main() 
